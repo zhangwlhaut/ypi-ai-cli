@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/studyzy/yapi-ai-cli/internal/config"
+	"github.com/zhangwlhaut/ypi-ai-cli/internal/config"
 )
 
 var authLocal bool

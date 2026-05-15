@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/studyzy/yapi-ai-cli/internal/model"
+	"github.com/zhangwlhaut/ypi-ai-cli/internal/model"
 )
 
 // Exit codes

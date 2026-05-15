@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/studyzy/yapi-ai-cli/internal/client"
-	"github.com/studyzy/yapi-ai-cli/internal/config"
-	"github.com/studyzy/yapi-ai-cli/internal/output"
+	"github.com/zhangwlhaut/ypi-ai-cli/internal/client"
+	"github.com/zhangwlhaut/ypi-ai-cli/internal/config"
+	"github.com/zhangwlhaut/ypi-ai-cli/internal/output"
 )
 
 var (

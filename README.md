@@ -11,7 +11,7 @@
 ### 方式一：go install（推荐）
 
 ```bash
-go install github.com/studyzy/yapi-ai-cli/cmd/yapi@latest
+go install github.com/zhangwlhaut/ypi-ai-cli/cmd/yapi@latest
 ```
 
 ### 方式二：从源码构建

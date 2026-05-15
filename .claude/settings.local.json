@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:hellosean1025.github.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/studyzy/tapd-ai-cli/main/README.md\")",
+      "Bash(curl -sL \"https://hellosean1025.github.io/yapi/openapi.html\")",
+      "Bash(sed 's/<[^>]*>//g')",
+      "Bash(curl -sL \"https://hellosean1025.github.io/yapi/openapi.html\" -o /tmp/yapi_openapi.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/studyzy/tapd-ai-cli/main/cmd/tapd/main.go\")",
+      "Bash(curl -sL --connect-timeout 10 \"https://raw.githubusercontent.com/studyzy/tapd-ai-cli/main/internal/cmd/root.go\")",
+      "Bash(grep -v '^{$')",
+      "Bash(grep -v '^}$')",
+      "Bash(mkdir:*)",
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(go build:*)",
+      "Bash(./yapi.exe --help)",
+      "Bash(./yapi.exe auth:*)",
+      "Bash(./yapi.exe interface:*)",
+      "Bash(./yapi.exe skill:*)",
+      "Bash(rm -f .yapi.json)",
+      "Bash(rm -f yapi.exe)",
+      "Bash(./yapi.exe project:*)",
+      "Bash(curl -s \"https://yapi.digibird.com.cn/api/project/get?token=d9cd270847e499b9ebe4a93f76e52da828586f448315bf7e05dd68db9daf2897\")",
+      "Bash(go run:*)",
+      "Bash(./yapi.exe category:*)",
+      "Bash(curl -s \"https://yapi.digibird.com.cn/api/interface/list?project_id=550&token=d9cd270847e499b9ebe4a93f76e52da828586f448315bf7e05dd68db9daf2897&page=1&limit=3\")",
+      "Bash(./yapi.exe url:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(curl:*)",
+      "Bash(MSYS_NO_PATHCONV=1 ./yapi.exe interface add --path /api/program/control --method POST --catid 8613 --title \"test\" --project-id 550 --new-only)",
+      "Bash(go env:*)",
+      "Bash(go install:*)"
+    ]
+  }
+}
