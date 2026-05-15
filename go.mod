@@ -1,4 +1,4 @@
-module github.com/zhangwlhaut/ypi-ai-cli
+module github.com/zhangwlhaut/yapi-ai-cli
 
 go 1.26.2
 

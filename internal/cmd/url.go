@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	"github.com/zhangwlhaut/ypi-ai-cli/internal/output"
+	"github.com/zhangwlhaut/yapi-ai-cli/internal/output"
 )
 
 var urlCmd = &cobra.Command{

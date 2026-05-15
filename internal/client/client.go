@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zhangwlhaut/ypi-ai-cli/internal/model"
+	"github.com/zhangwlhaut/yapi-ai-cli/internal/model"
 )
 
 // Client is the YApi Open API HTTP client.

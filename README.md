@@ -11,14 +11,14 @@
 ### 方式一：go install（推荐）
 
 ```bash
-go install github.com/zhangwlhaut/ypi-ai-cli/cmd/yapi@latest
+go install github.com/zhangwlhaut/yapi-ai-cli/cmd/yapi@latest
 ```
 
 ### 方式二：从源码构建
 
 ```bash
-git clone git@github.com:zhangwlhaut/ypi-ai-cli.git
-cd ypi-ai-cli
+git clone git@github.com:zhangwlhaut/yapi-ai-cli.git
+cd yapi-ai-cli
 make build     # 在当前目录生成 ./yapi
 make install   # 编译并安装到 $GOPATH/bin
 ```
